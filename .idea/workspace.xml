@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffccb400-18e1-440f-b573-445902a0c56b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lexer/lexer.go" afterPath="$PROJECT_DIR$/lexer/lexer.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lexer/lexer_test.go" afterPath="$PROJECT_DIR$/lexer/lexer_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/token/token.go" afterPath="$PROJECT_DIR$/token/token.go" />
     </list>
@@ -21,8 +19,8 @@
       <file leaf-file-name="lexer_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lexer/lexer_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="-521">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
               </folding>
@@ -73,7 +71,7 @@
       <file leaf-file-name="lexer.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lexer/lexer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="-417">
               <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
               <folding>
                 <element signature="e#15#36#0" expanded="true" />
@@ -88,11 +86,11 @@
             <state relative-caret-position="-4623">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1547303599000" expanded="true" signature="59:35493" ph="..." />
-                <marker date="1547303599000" expanded="true" signature="35419:35436" ph="..." />
-                <marker date="1547303599000" expanded="true" signature="35419:35454" ph="..." />
-                <marker date="1547303599000" expanded="true" signature="35419:35467" ph="..." />
-                <marker date="1547303599000" expanded="true" signature="35419:35482" ph="..." />
+                <marker date="1547377936000" expanded="true" signature="59:35899" ph="..." />
+                <marker date="1547377936000" expanded="true" signature="35825:35842" ph="..." />
+                <marker date="1547377936000" expanded="true" signature="35825:35860" ph="..." />
+                <marker date="1547377936000" expanded="true" signature="35825:35873" ph="..." />
+                <marker date="1547377936000" expanded="true" signature="35825:35888" ph="..." />
               </folding>
             </state>
           </provider>
@@ -101,8 +99,8 @@
       <file leaf-file-name="token.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/token/token.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="256">
+              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -128,9 +126,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/lexer/lexer.go" />
         <option value="$PROJECT_DIR$/lexer/lexer_test.go" />
         <option value="$PROJECT_DIR$/token/token.go" />
-        <option value="$PROJECT_DIR$/lexer/lexer.go" />
       </list>
     </option>
   </component>
@@ -610,26 +608,18 @@
         <state relative-caret-position="-4623">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1547303599000" expanded="true" signature="59:35493" ph="..." />
-            <marker date="1547303599000" expanded="true" signature="35419:35436" ph="..." />
-            <marker date="1547303599000" expanded="true" signature="35419:35454" ph="..." />
-            <marker date="1547303599000" expanded="true" signature="35419:35467" ph="..." />
-            <marker date="1547303599000" expanded="true" signature="35419:35482" ph="..." />
+            <marker date="1547377936000" expanded="true" signature="59:35899" ph="..." />
+            <marker date="1547377936000" expanded="true" signature="35825:35842" ph="..." />
+            <marker date="1547377936000" expanded="true" signature="35825:35860" ph="..." />
+            <marker date="1547377936000" expanded="true" signature="35825:35873" ph="..." />
+            <marker date="1547377936000" expanded="true" signature="35825:35888" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/token/token.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lexer/lexer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="-417">
           <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding>
             <element signature="e#15#36#0" expanded="true" />
@@ -637,10 +627,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/token/token.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lexer/lexer_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="-521">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
           </folding>
