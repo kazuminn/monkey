@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/ast/ast.go" line="8" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/ast/ast.go" line="12" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffccb400-18e1-440f-b573-445902a0c56b" name="Default" comment="">
@@ -26,16 +26,6 @@
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="repl.go" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/waiig_code_1.4/02/src/monkey/repl/repl.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -89,8 +79,20 @@
       <file leaf-file-name="ast.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ast/ast.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="585">
+              <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="e#13#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parser.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parser/parser.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -112,11 +114,11 @@
             <state relative-caret-position="-4623">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1547395585000" expanded="true" signature="59:38686" ph="..." />
-                <marker date="1547395585000" expanded="true" signature="38612:38629" ph="..." />
-                <marker date="1547395585000" expanded="true" signature="38612:38647" ph="..." />
-                <marker date="1547395585000" expanded="true" signature="38612:38660" ph="..." />
-                <marker date="1547395585000" expanded="true" signature="38612:38675" ph="..." />
+                <marker date="1547467207000" expanded="true" signature="59:39976" ph="..." />
+                <marker date="1547467207000" expanded="true" signature="39902:39919" ph="..." />
+                <marker date="1547467207000" expanded="true" signature="39902:39937" ph="..." />
+                <marker date="1547467207000" expanded="true" signature="39902:39950" ph="..." />
+                <marker date="1547467207000" expanded="true" signature="39902:39965" ph="..." />
               </folding>
             </state>
           </provider>
@@ -157,6 +159,7 @@
         <option value="$PROJECT_DIR$/lexer/lexer.go" />
         <option value="$PROJECT_DIR$/repl/repl.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/parser/parser.go" />
         <option value="$PROJECT_DIR$/ast/ast.go" />
       </list>
     </option>
@@ -222,6 +225,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lexer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monkey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monkey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ast" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,11 +656,11 @@
         <state relative-caret-position="-4623">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1547395585000" expanded="true" signature="59:38686" ph="..." />
-            <marker date="1547395585000" expanded="true" signature="38612:38629" ph="..." />
-            <marker date="1547395585000" expanded="true" signature="38612:38647" ph="..." />
-            <marker date="1547395585000" expanded="true" signature="38612:38660" ph="..." />
-            <marker date="1547395585000" expanded="true" signature="38612:38675" ph="..." />
+            <marker date="1547467207000" expanded="true" signature="59:39976" ph="..." />
+            <marker date="1547467207000" expanded="true" signature="39902:39919" ph="..." />
+            <marker date="1547467207000" expanded="true" signature="39902:39937" ph="..." />
+            <marker date="1547467207000" expanded="true" signature="39902:39950" ph="..." />
+            <marker date="1547467207000" expanded="true" signature="39902:39965" ph="..." />
           </folding>
         </state>
       </provider>
@@ -704,11 +721,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parser/parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ast/ast.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="585">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="e#13#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
