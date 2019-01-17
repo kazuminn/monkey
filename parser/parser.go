@@ -28,5 +28,14 @@ func (p *Parser) nextToken() {
 }
 
 func (p *Parser) ParseProgram() *ast.Program {
-	return nil
+	program := &ast.Program{}
+	program.Statments = []ast.Statement{}
+
+	for p.curToken.Type != token.EOF {
+		stmt := p.ParseProgram()
+		if stmt != nil {
+			program.Statments = append(program.Statments, stmt)
+		}
+		p.nextToken()
+	}
 }
