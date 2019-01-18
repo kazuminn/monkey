@@ -1,7 +1,7 @@
 package ast
 
 import (
-	"go/token"
+	"monkey/token"
 )
 
 type Node interface {
